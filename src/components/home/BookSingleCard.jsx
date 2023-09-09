@@ -28,6 +28,7 @@ const BookSingleCard = ({ book }) => {
         <BiShow
           className='text-3xl text-blue-800 hover:text-black cursor-pointer'
           onClick={() => setShowModal(true)}
+          title="Book Preview"
         />
         <Link to={`/books/details/${book._id}`}>
           <BsInfoCircle className='text-2xl text-green-800 hover:text-black' />
